@@ -1,0 +1,18 @@
+{
+  "name": "Apache 2.4 & MySQL 9.7 Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts":,
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "cweijan.vscode-mysql-client2",
+        "mshbatatt.apache-conf"
+      ]
+    }
+  },
+  "postCreateCommand": "echo '¡Entorno listo! Apache y MySQL están corriendo.'",
+  "remoteUser": "root"
+}
